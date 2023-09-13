@@ -1,0 +1,4 @@
+/node_modules
+
+# . in the front is hidden files
+.env 
