@@ -29,6 +29,8 @@ require('dotenv').config()
 const peopleController = require('./controllers/peopleController')
 const morgan = require('morgan')
 
+console.log("KARLA")
+
 app.use(express.urlencoded({ extended: true }))
 app.use(morgan('tiny'))
 app.use('/people', peopleController)
